@@ -1,1 +1,1 @@
-{"resources":{"Scripts/Script.sql":{"default-datasource":"postgres-jdbc-1968dd00558-4d2308a611e8be30","default-catalog":"defaultdb"}}}
+{"resources":{"Scripts/Script-1.sql":{"default-schema":"course_management","default-datasource":"postgres-jdbc-1968dd00558-4d2308a611e8be30","default-catalog":"defaultdb"},"Scripts/Script.sql":{"default-schema":"public","default-datasource":"postgres-jdbc-1968dd00558-4d2308a611e8be30","default-catalog":"defaultdb"}}}
