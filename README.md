@@ -51,5 +51,11 @@ an instructor can teach multiple courses
 ![Index](https://github.com/user-attachments/assets/e20f8bc4-21c2-49fe-a106-068e7eaf207f)
 # m. query 13 Create a trigger or stored procedure that logs new enrollments
 ![trigger function](https://github.com/user-attachments/assets/364cca4f-8a6c-41c2-af60-49f852adc6bb)
+# Challenges
+Creating triggers  or stored procedure that logs new enrollments was the most complext task undertaken i had to use a few resources to get it right.
+Although I was able to use joins effectively inner, outer, left & right join are challenging to me.
+# Lessons learnt 
+always be careful when creating tables and inserting values because any slight mistake will force you to start all over or drop the entire table.
+for smoother join always include foreign keys whenever necessary.
 
 
