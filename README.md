@@ -5,23 +5,23 @@ In this project I was tasked to create A relational database system for managing
 
 # 3. Instructions to run the SQL Code
 Using pgAdmin connected to Aiven
-* a. Create database: Right-click "Databases" → "Create" → Name: Course_management.
-b. Run schema script: Open schema.sql → Execute
-c. Load data in my case the tables then execute
+- a. Create database: Right-click "Databases" → "Create" → Name: Course_management.
+- b. Run schema script: Open schema.sql → Execute
+- c. Load data in my case the tables then execute
 d. Run queries 
 # 4. Explanation of the schema
 The system uses a relational model with 4 core tables and 1 audit log table to track academic operations:
-a. student table: stores student demographics/details
-b. courses table: contains course catalog.
-c. Instructors table: Manages faculty data i.e instructors and courses they offer.
-d. Enrollments table: Tracks students course relationship
-e. enrollment_logs table: records all enrollment changes
+- a. student table: stores student demographics/details
+- b. courses table: contains course catalog.
+- c. Instructors table: Manages faculty data i.e instructors and courses they offer.
+- d. Enrollments table: Tracks students course relationship
+- e. enrollment_logs table: records all enrollment changes
 # Relationships
-a. between students and enrollments: one-to-many
+- a. between students and enrollments: one-to-many
 students can get enrolled to multiple courses
-b. between courses and enrollments: one-to-many
-a course can have multiple enrolled students
-c. between instructors and courses: one-to-many
+- b. between courses and enrollments: one-to-many
+- a course can have multiple enrolled students
+- c. between instructors and courses: one-to-many
 an instructor can teach multiple courses
 # 5. Description of key queries
 
