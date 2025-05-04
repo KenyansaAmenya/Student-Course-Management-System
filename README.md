@@ -5,7 +5,7 @@ In this project I was tasked to create A relational database system for managing
 
 # 3. Instructions to run the SQL Code
 Using pgAdmin connected to Aiven
-a. Create database: Right-click "Databases" → "Create" → Name: Course_management.
+* a. Create database: Right-click "Databases" → "Create" → Name: Course_management.
 b. Run schema script: Open schema.sql → Execute
 c. Load data in my case the tables then execute
 d. Run queries 
